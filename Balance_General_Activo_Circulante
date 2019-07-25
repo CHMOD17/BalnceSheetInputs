@@ -1,0 +1,69 @@
+#
+#      *******    *******    *******       *       ******      *****     *******
+#      *          *             *         * *      *     *    *******    *
+#      *******    *******       *        *****     *     *    *******    *******
+#      *                *       *       *     *    *     *    *******          *
+#      *******    *******       *      *       *   ******      *****     *******
+#
+#
+#      *******       *       *     * 
+#      *             *       * *   *
+#      *******       *       *  *  *
+#      *             *       *    **
+#      *             *       *     *
+
+
+#
+#
+#Balance General Segun las NIC
+# La entidad presentará sus activos corrientes y no corrientes, así como sus pasivos corrientes y no
+# corrientes, como categorías separadas dentro del balance, de acuerdo con los párrafos 57 a 67, excepto
+# cuando la presentación basada en el grado de liquidez proporcione, una información relevante que sea
+# más fiable. Cuando se aplique tal excepción, todos los activos y pasivos se presentarán atendiendo, en
+# general, al grado de liquidez.
+
+
+#                                               *****  ACTIVO  *****
+
+# ***** 1.1 Activo Corriente *****
+
+#  1.1.1 Disponibilidades (Bienes o Derechos que por su naturaleza se espera convertir  en efectivo,
+#        antes de 12 meses)
+
+cash_account = int(input('Caja: '))
+bank = int(input('Bancos: '))
+forex = int(input('Divisas: '))
+revolving_funds = int(input('Fondos Revolventes: '))
+
+# 1.1.2 Inversiones Financieras (Son las colocaciones que se realizan con los recursos
+# inmediatas de operación, en títulos o valores públicos o
+# privados, en el otorgamiento de préstamos o en otras
+# modalidades, cuya recuperación se producirá dentro de los
+# doce (12) meses de concertada la colocación. También
+# comprende colocaciones efectuadas en instituciones
+# financieras o bancarias producto de excedentes transitorios
+# de efectivo.)
+
+temporary_investments = int(input('Inversiones Temporarias: '))
+titles_and_values = int(input('titulos Y Valores: '))
+financial_loans = int(input('Prestamos Financieros Otorgados: '))
+forex_investments = int(input('Inversiones Financieras: '))
+
+
+# 1.1.3 Creditos (Son derechos del ente emergentes de obligaciones
+# contraídas por terceros en concepto de impuestos, tasas,
+# ventas de bienes, regalías, locación de inmuebles, anticipos y
+# adelantos otorgados a proveedores y contratistas por bienes
+# o servicios a recibir.)
+
+
+accounts_receivable = int(input('Cuentas por Cobrar: '))
+allowance_for_bad_accounts = int(input('Prevision Para cuentas Incobrables: '))
+documents_receivable = int(input('Documentos por Cobrar: '))
+allowance_for_bad_documents_receivable = int(input('Prevision para Documentos Incobrables: '))
+advance_payment = int(input('Anticipos :'))
+expenses_paid_in_advance = int(input('Gastos Pagados Por Adelantado:'))
+loans = int(input('Prestamos Otorgados: '))
+debtors_in_judicial_management = int(input('Deudores en gestion Judicial:'))
+other_loans = int(input('Otros Prestamos: '))
+allowance_for_bad_other_loans = int(input('Prevision para otros prestamos:'))
