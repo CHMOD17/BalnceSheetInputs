@@ -1,0 +1,120 @@
+#
+#      *******    *******    *******       *       ******      *****     *******
+#      *          *             *         * *      *     *    *******    *
+#      *******    *******       *        *****     *     *    *******    *******
+#      *                *       *       *     *    *     *    *******          *
+#      *******    *******       *      *       *   ******      *****     *******
+#
+#
+#      *******       *       *     *
+#      *             *       * *   *
+#      *******       *       *  *  *
+#      *             *       *    **
+#      *             *       *     *
+
+#   ******** 1 Activo ********************
+# ***** 1.1 Activo Circulante  *****
+
+#  1.1.1 Disponibilidades (Bienes o Derechos que por su naturaleza se espera convertir  en efectivo,
+#        antes de 12 meses)
+caja = int(input('Caja: '))
+fondo_fijo_de_la_caja_chica = int(input('Fondo fijo de la caja chica: '))
+fondo_de_oportunidades = int(input('Fondo de oportunidades: '))
+bancos = int(input('Bancos: '))
+instrumentos_financieros = int(input('Instrumentos Financieros: '))
+clientes = int(input('Clientes:'))
+documentos_por_cobrar = int(input('Documentos por Cobrar: '))
+deudores = int(input('Deudores: '))
+funcionarios_y_empleados = int(input('Funcionarios y Empleados: '))
+iva_acreditable = int(input('Iva Acreditable: '))
+anticipo_de_impuestos = int(input('Anticipo de Impuestos: '))
+inventario = int(input('Inventario: '))
+mercancias_en_transito = int(input('Mercancias de Transito: '))
+anticipo_a_proveedores = int(input('Anticipo de Proveedores: '))
+papeleria_y_utiles = int(input('Papeleria y Útiles: '))
+propaganda_y_publicidad = int(input('Propaganda y Publicidad: '))
+muestras_medicas_y_papeleria = int(input('Muestras Médicas y Papelería: '))
+primas_de_seguros_y_fianzas = int(input('Primas de Seguros y Fianzas: '))
+rentas_pagadas_por_anticipado = int(input('Rentas Pagadas por Anticipado: '))
+intereses_pagados_por_anticipado = int(input('Intereses Pagados por Anticipado: '))
+
+
+
+
+
+# ***** 1.2 Activo No-Circulante *****
+
+terrenos = int(input('Terrenos: '))
+edificios = int(input('Edificios: '))
+maquinaria_y_equipo_de_oficina = int(input('Maquinaria y Equipo de Oficina: '))
+muebles_y_enseres = int(input('Muebles y enseres: '))
+equipo_de_transporte = int(input('Equipo de Transporte: '))
+equipo_de_entrega_y_reparto = int(input('Equipo de Entrega y Reparto: '))
+derechos_de_autor = int(input('Derechos de Autor: '))
+patentes = int(input('Patentes: '))
+marcas_y_nombres_comerciales = int(input('Marcas y Nombres Comerciales: '))
+credito_mercantil = int(input('Crédito Mercantil: '))
+gastos_preoperativos = int(input('Gastos Preoperativos: '))
+franquicias = int(input('Franquicias: '))
+gastos_de_constitucion = int(input('Gastos de Constitucion: '))
+gastos_de_organizacion = int(input('Gastos de Organizacion: '))
+papeleria_y_utiles_a_largo_plazo = int(input('Papeleria y utiles a largo plazo: '))
+propaganda_y_publicidad_a_largo_plazo = int(input('Propaganda y Publicidad: '))
+primas_de_seguros_y_fianzas_a_largo_plazo = int(input('Primas de Seguros Y Fianzas: '))
+muestras_medicas_y_literatura_a_largo_plazo = int(input('Muestras Medicas y Literatura: '))
+rentas_pagadas_por_anticipado_a_largo_plazo = int(input('Rentas Pagadas por Anticipado a largo plazo: '))
+intereses_pagados_por_anticipado_a_largo_plazo = int(input('Intereses Pagados por Anticipado a largo plazo: '))
+fondo_de_amortizacion_de_obligaciones = int(input('Fondo de Amortizacion de Obligaciones: '))
+depositos_en_garantia = int(input('Depositos de Garantia: '))
+inversiones_en_proceso = int(input('Inversiones en Proceso: '))
+terrenos_no_utilizados = int(input('Terrenos no Utilizados: '))
+maquinaria_no_utilizada = int(input('Maquinaria no Utilizada: '))
+
+#************* 2. PASIVO ******************
+
+# ************ 2.1 Pasivo Circulante ************
+
+proveedores = int(input('Proveedores: '))
+documentos_por_pagar = int(input('Documentos por Pagar: '))
+acreedores = int(input('Acreedores: '))
+acreedores_bancarios = int(input('Acreedores Bancarios: '))
+anticipos_a_clientes = int(input('Anticipos de Clientes: '))
+dividendos_por_pagar = int(input('Dividendos por Pagar: '))
+iva_causado = int(input('IVA Causado: '))
+impuestos_y_derechos_por_pagar = int(input('Impuestos y Derechos por pagar: '))
+impuesto_sobre_la_renta_isr_por_pagar = int(input('Impuesto sobre la renta (ISR) por pagar: '))
+Participacion_de_los_trabajadores_en_las_utilidades_ptu_por_pagar = int(input('Participacion de los trabajadores en las utilidades (PTU) por pagar: '))
+rentas_cobradas_por_anticipado = int(input('Rentas cobradas por anticipado: '))
+intereses_cobrados_por_anticipado = int(input('Intereses cobrados por anticipado: '))
+
+
+# ************ 2.2 Pasivo No-Circulante ************
+acreedores_hipotecarios = int(input('Acreedores hipotecarios: '))
+acreedores_bancarios = int(input('Acreedores bancarios: '))
+documentos_por_pagar_a_largo_plazo = int(input('Documentos por pagar a largo plazo: '))
+obligacion_en_circulacion = int(input('Obligacion en circulacion: '))
+rentas_cobradas_por_anticipado_a_largo_plazo = int(input('Rentas cobradas por anticipado a largo plazo: '))
+intereses_cobrados_por_anticipado_a_largo_plazo = int(input('Intereses cobrados por anticipado: '))
+
+
+# ************ 3 CAPITAL CONTABLE ************
+
+#  ***************Capital Social   **************
+
+aportaciones_para_futuros_aumentos_de_capital = int(input('Aportaciones para futuros aumentos de capital: '))
+prima_en_venta_de_acciones = int(input('Prima en venta de acciones: '))
+utilidades_integrales_retenidas_incluyendo_las_aplicaciones_a_reservas_de_capital = int(input('Utilidades integrales retenidas, incluyendo las aplicaciones a reservas de capital: '))
+perdidas_integrales_retenidas_incluyendo_las_aplicaciones_a_reservas_de_capital = int(input('Perdidas integrales retenidas, incluyendo las aplicaciones a reservas de capital: '))
+perdidas_integrales_acumuladas = int(input('Pérdidas integrales acumuladas: '))
+exceso_o_insuficiencia_en_la_actualización_del_capital_contable_capital_social = int(input('Exceso o insuficiencia en la actualización del capital contable Capital Social: '))
+
+
+
+
+
+
+
+
+
+
+
