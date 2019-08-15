@@ -1,0 +1,125 @@
+#
+#      *******    *******    *******       *       ******      *****     *******
+#      *          *             *         * *      *     *    *******    *
+#      *******    *******       *        *****     *     *    *******    *******
+#      *                *       *       *     *    *     *    *******          *
+#      *******    *******       *      *       *   ******      *****     *******
+#
+#
+#      *******       *       *     *
+#      *             *       * *   *
+#      *******       *       *  *  *
+#      *             *       *    **
+#      *             *       *     *
+
+#   ******** 1 Activo ********************
+# ***** 1.1 Activo Circulante  *****
+
+#  1.1.1 Disponibilidades (Bienes o Derechos que por su naturaleza se espera convertir  en efectivo,
+#        antes de 12 meses)
+
+cash_account = int(input('Caja: '))
+fixed_cashier_fund = int(input('Fondo fijo de la caja chica: '))
+opportunities_fund = int(input('Fondo de oportunidades: '))
+banks = int(input('Bancos: '))
+financial_instruments = int(input('Instrumentos Financieros: '))
+clients = int(input('Clientes:'))
+documents_receivables = int(input('Documentos por Cobrar: '))
+debtors = int(input('Deudores: '))
+officials_and_employees = int(input('Funcionarios y Empleados: '))
+creditable_tax = int(input('Iva Acreditable: '))    #maybe to be accrued vat
+tax_advance = int(input('Anticipo de Impuestos: '))
+inventories = int(input('Inventario: '))
+goods_in_transit = int(input('Mercancias de Transito: '))
+advances_to_suppliers = int(input('Anticipo de Proveedores: '))
+papers_and_supplies = int(input('Papeleria y Útiles: '))
+marketing = int(input('Propaganda y Publicidad: '))
+medical_samples = int(input('Muestras Médicas y Papelería: '))
+insurance = int(input('Primas de Seguros y Fianzas: '))
+rents_in_advance = int(input('Rentas Pagadas por Anticipado: '))
+interest_payments_in_advance = int(input('Intereses Pagados por Anticipado: '))
+
+
+# ***** 1.2 Activo No-Circulante *****
+
+land = int(input('Terrenos: '))
+buildings = int(input('Edificios: '))
+office_machinery_and_equipment = int(input('Maquinaria y Equipo de Oficina: '))
+furniture_and_fixtures = int(input('Muebles y enseres: '))
+transport_vehicles = int(input('Equipo de Transporte: '))
+delivery_vehicles = int(input('Equipo de Entrega y Reparto: '))
+copy_rights = int(input('Derechos de Autor: '))
+patents = int(input('Patentes: '))
+branding_and_copyright = int(input('Marcas y Nombres Comerciales: '))
+mercantile_credit = int(input('Crédito Mercantil: '))
+preoperative_expenses = int(input('Gastos Preoperativos: '))
+franchises = int(input('Franquicias: '))
+expenses_of_constitution = int(input('Gastos de Constitucion: '))
+organization_expenses = int(input('Gastos de Organizacion: '))
+long_term_papers_and_supply = int(input('Papeleria y utiles a largo plazo: '))
+long_term_marketing = int(input('Propaganda y Publicidad: '))
+long_term_insurance = int(input('Primas de Seguros Y Fianzas: '))
+long_term_medical_samples = int(input('Muestras Medicas y Literatura:' ))
+long_term_rents_paid_in_advance = int(input('Rentas Pagadas por Anticipado: '))
+long_term_interest_paid_in_advance = int(input('Intereses Pagados por Anticipado: '))
+long_term_amortization_funds = int(input('Fondo de Amortizacion de Obligaciones: '))
+deposits_in_guarantee = int(input('Depositos de Garantia: '))
+current_investments = int(input('Inversiones en Proceso: '))
+not_in_use_land = int(input('Terrenos no Utilizados: '))
+not_in_use_machinery = int(input('Maquinaria no Utilizada: '))
+
+#************* 2. PASIVO ******************
+
+# ************ 2.1 Pasivo Circulante ************
+
+suppliers = int(input('Proveedores: '))
+documents_payable = int(input('Documentos por Pagar: '))
+creditors = int(input('Acreedores: '))
+bank_creditors = int(input('Acreedores Bancarios: '))
+customer_advances = int(input('Anticipos de Clientes: '))
+dividends_payable = int(input('Dividendos por Pagar: '))
+accrued_vat = int(input('IVA Causado: '))
+taxes_payable = int(input('Impuestos y Derechos por pagar: '))
+utility_tax_payable = int(input('Impuesto sobre la renta (ISR) por pagar: '))
+employee_participation_in_profits_payable = int(input('Participacion de los trabajadores en las utilidades (PTU) por pagar: '))
+rents_charged_in_advance = int(input('Rentas cobradas por anticipado: '))
+interest_charged_in_advance = int(input('Intereses cobrados por anticipado: '))
+
+
+# ************ 2.2 Pasivo No-Circulante ************
+mortgage_creditors = int(input('Acreedores hipotecarios: '))
+banking_creditors = int(input('Acreedores bancarios: '))
+long_term_documents_payable = int(input('Documentos por pagar a largo plazo: '))
+obligations_in_circulation = int(input('Obligacion en circulacion: '))
+long_term_rents_charged_in_advance = int(input('Rentas cobradas por anticipado: '))
+long_term_interest_charged_in_advance = int(input('Intereses cobrados por anticipado: '))
+
+
+# ************ 3 CAPITAL CONTABLE ************
+
+#  ***************Capital Social   **************
+
+contributions_for_future_capital_increases = int(input('Aportaciones para futuros aumentos de capital: '))
+premium_on_stocks_sales = int(input('Prima en venta de acciones: '))
+retained_comprehensive_earnings_and_equity_reserve = int(input('Utilidades integrales retenidas, incluyendo las aplicaciones a reservas de capital: '))
+retained_comprehensive_losses_equity_included = int(input('Perdidas integrales retenidas, incluyendo las aplicaciones a reservas de capital: '))
+accumulated_integral_loss = int(input('Pérdidas integrales acumuladas: '))
+accumulated_equity_capital = int(input('Exceso o insuficiencia en la actualización del capital contable Capital Social: '))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
